@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "next/babel",
+    "@zeit/next-typescript/babel",
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": [
+    "lodash",
+    ["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "@styles": "./styles"
+      }
+    }]
+  ]
+}

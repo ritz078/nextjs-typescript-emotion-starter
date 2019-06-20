@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@styles/*": ["./styles/*"]
+    },
+    "lib": ["dom", "es2016", "webworker"],
+    "typeRoots": ["./node_modules/@types", "./typings/npm"],
+    "types": ["@emotion/core"]
+  },
+  "exclude": ["scripts", "static", "public", ".next", "./node_modules"]
+}
